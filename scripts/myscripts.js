@@ -1,4 +1,5 @@
 $(document).ready(function (f) {
+    document.getElementById("year").innerHTML = new Date().getFullYear();
     $(window).resize(function(){
         if($(window).width() > 900){
             $(".sidebar").attr("style","display: block");
